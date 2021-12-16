@@ -4,11 +4,13 @@ header {
     height: 150px;
     display: flex; 
     justify-content: center;
-    border: solid 3px black;
+    border: solid 3px rgb(7, 7, 7);
     font-size:  100px;
+    color: rgb(15, 15, 15);
     font-style: oblique;
     align-items: center;
-    
+    background-image: url(../img/himmel.jpeg);
+    background-size: 100% 100%;
 }
 
 nav {
@@ -25,12 +27,13 @@ nav {
 #meny1 {
     background-color: rgb(120, 110, 253);
     height: 250px;
-    width: 90vh; 
+    width: 100vh; 
     display: flex;
    justify-content: center;
    align-items: center;
     color: white;
    font-size: 30px;
+   font-style: oblique;
 
   
 }
@@ -38,12 +41,22 @@ nav {
 #meny2 {
     background-color: rgb(112, 77, 209);
     height: 250px;
-    width: 90vh;
+    width: 100vh;
+    font-size: 75px; 
+    align-items: center;
+    color: rgb(14, 13, 13);
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    background-image: url(../img/smoothies\ 3.jpeg);
+    background-size: 100% 100%;
+
 }
 
 #lador {
     display: flex;
 justify-content:space-around;
+border: solid 3px black;
 
 
 }
@@ -54,6 +67,13 @@ justify-content:space-around;
     height: 250px;
     width: 150px;
     flex: auto;
+    font-size: 30px;
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    padding: 10px;
 }
 
 #meny4 {
@@ -62,6 +82,13 @@ justify-content:space-around;
     height: 250px;
     width: 150px;
     flex: auto;
+    font-size: 30px;
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    padding: 10px;
 
 }
 
@@ -71,7 +98,13 @@ justify-content:space-around;
     height: 250px;
     width: 150px;
     flex: auto;
-
+    font-size: 30px;
+    align-items: center;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    padding: 10px;
 }
 
 #katt {
@@ -79,8 +112,44 @@ justify-content:space-around;
     justify-content: first baseline;
     height: auto;
     width: auto;
-    border: black solid;
+    border: solid 3px black;
    
+}
 
+#take {
+    background-color: rgb(8, 163, 91);
+    width: 100wh;
+    height: 150px;
+    display: flex; 
+    justify-content: center;
+    font-size:  100px;
+    font-style: oblique;
+    align-items: center;
+    border: solid 3px black;
+
+}
+
+#social {
+    background-color: rgb(8, 163, 91);
+    width: 100wh;
+    height: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#logo1 {
+ width: 30px; 
+ height: 30px;
+ margin-left: 5px;
+
+
+}
+
+#logo2 { 
+width: 30px;
+height: 30px;
+margin-left: 15px;
 
 }
